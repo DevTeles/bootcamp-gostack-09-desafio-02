@@ -18,8 +18,6 @@ export default async (req, res, next) => {
 
     const UserLogado = await User.findByPk(decoded.id);
 
-    console.log(UserLogado.name);
-
     if (UserLogado.name !== 'Administrador') {
       return res
         .status(400)
