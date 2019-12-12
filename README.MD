@@ -14,3 +14,14 @@ Você deverá criar a aplicação do zero utilizando o Express, além de precisa
 Sucrase + Nodemon;
 ESLint + Prettier + EditorConfig;
 Sequelize (Utilize PostgreSQL ou MySQL);
+
+# Instruções para rodar o backend, segue abaixo:
+
+Obs: Sistema operacional utilizado, linux ubuntu.
+
+1. Fazer os downloads dos arquivos ZIP;
+2. Extrair os arquivos e abrir pelo terminal;
+3. Rodar o comando "sudo docker start postgres" e "sudo docker start redisgympoint";
+4. rodar o comando "yarn", para instalar as dependências;
+5. E por último rodar o comando "yarn dev" para start o banckend;
+6. Está pronto para fazer os testes pelo insomnia.
